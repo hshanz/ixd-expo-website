@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Balancing Act</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <script>
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+            reveals[i].classList.remove("reveal");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/e8f9e2214b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section></section>
+    <section>
+      <div class="container reveal fade-bottom">
+        <h2>Project</h2>
+        <div class="text-container collum">
+          <div class="text-box-2">
+            <p>
+              The aim of this project was to explore teamwork, mutual trust and
+              roles in a team within the context of a clear goal-oriented task.
+              By placing the participants in an environment where the entire
+              floor is a balancing board they are encouraged to participate and
+              work together to successfully complete the task at hand.
+            </p>
+          </div>
+          <div class="text-container">
+            <div class="text-box">
+              <h3>What?</h3>
+              <p>
+                The Balancing Act is an exploratory design of teamwork and
+                mutual trust. Step up on the board together with a friend or foe
+                and try to collect as many points as possible by navigating your
+                way through the maze.
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Who?</h3>
+              <p>
+                Designed for team building, this collaborative interactive
+                experience is perfect for families, groups of friends,
+                coworkers, or project teams. It is a unique and enjoyable way to
+                strengthen connections while having a good time and creating
+                lasting bonds among participants.
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Why?</h3>
+              <p>
+                In summary, "The Balancing Act" serves as a dynamic platform for
+                individuals and groups to come together, enhance their teamwork
+                skills, and enjoy each other's company.
+              </p>
+            </div>
+          </div>
+          <div class="text-box-2">
+            <h3>The prototype</h3>
+            <p>
+              The final prototype, a high-fidelity prototype was created as a
+              proof of concept. The materials used are 18 mm plywood for the
+              base, frame and walls of the labyrinth and assembled with wood
+              glue and plugs. Plexiglas was used to cover the top of the maze,
+              allowing stability for the user to walk on the top of the platform
+              while simultaneously allowing the transparency needed to see the
+              maze below it. A balancing board was attached to the bottom, using
+              two-part epoxy and screws.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container reveal fade-left">
+        <h2>Prototyping</h2>
+        <div class="img-container">
+          <div class="inner-img-container">
+            <img src="img/protmini.png" alt="" />
+            <p class="img_description">
+              First miniature prototype
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/protbig.png" alt="" />
+            <p class="img_description">
+              Full size prototype made of foam board
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/pic2.jpg" alt="" />
+            <p class="img_description">
+              Working on the final prototype
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/pic5.jpg" alt="" />
+            <p class="img_description">
+              All walls in place
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/pic3.jpg" alt="" />
+            <p class="img_description">
+              Finishing touches 
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/pic4.jpg" alt="" />
+            <p class="img_description">
+              Testing the final assembly
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container reveal fade-right">
+        <h2>Proof of Concept</h2>
+        <div class="img-container-2">
+          <div class="inner-img-container">
+            <img src="img/birdseye.jpg" alt="" />
+            <p class="img_description">
+              Play testing the prototype
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/inaction.jpg" alt="" />
+            <p class="img_description">
+              In actiongi
+            </p>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/overview.jpg" alt="" />
+            <p class="img_description">
+              Overview of the final prototype
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container reveal fade-bottom">
+        <h2>Project Team</h2>
+        <div class="team-img-container">
+          <div class="inner-img-container">
+            <img src="img/david2.jpg" alt="" />
+            <div class="img_description">
+              <h3>David Andreasson</h3>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/david-andreasson-025529231/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="mailto:daandre@chalmers.se">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/oscar1.jpg" alt="" />
+            <div class="img_description">
+              <h3>Oscar Arvidson</h3>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/oscar-arvidson-692063226/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="mailto:oscarvid@chalmers.se">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/karl.jpeg" alt="" />
+            <div class="img_description">
+              <h3>Karl Gunnarsson</h3>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/karlgunnarsson/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="mailto:kargunna@chalmers.se">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/ludwig1.jpg" alt="" />
+            <div class="img_description">
+              <h3>Ludwig Johander</h3>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/ludwig-johander-90936b19a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="mailto:ludwig.johander@gmail.com">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/johanna.jpeg" alt="" />
+            <div class="img_description">
+              <h3>Johanna Penner</h3>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/johanna-penner-9627b0125/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="mailto:johannn@chalmers.se">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="inner-img-container">
+            <img src="img/jonathan.jpg" alt="" />
+            <div class="img_description">
+              <h3>Jonathan Stigson</h3>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/jonathan-stigson-697ab9297/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="mailto:jonsti@chalmers.se">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- 
+ -->
